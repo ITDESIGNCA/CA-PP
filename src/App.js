@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+  let [탭, 탭변경] = useState('';)
+  
   return (
     <div className="App">
       <header className="App-header">
